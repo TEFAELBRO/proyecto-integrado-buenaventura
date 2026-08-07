@@ -1,0 +1,22 @@
+componente,origen,clase,justificacion
+src/comun/metricas.py,proyecto_fortalecido V4,heredado sin cambios,WAPE MASE sesgo y empate tecnico son agnosticos al dominio
+src/comun/intervalos.py,proyecto_fortalecido V4,heredado sin cambios,Intervalos conformales sobre errores fuera de muestra
+src/comun/modelos.py,proyecto_fortalecido V4,heredado sin cambios,Lineas base y walk-forward sirven para toneladas igual que para CIF
+src/comun/io_utils.py,proyecto_fortalecido V4,heredado sin cambios,Hash manifiesto y figuras con pie obligatorio
+src/comun/eda.py,proyecto_fortalecido V4,heredado sin cambios,Funciones estadisticas reutilizadas sobre series portuarias
+src/comun/features.py,proyecto_fortalecido V4,heredado sin cambios,Construccion de rezagos y medias moviles sin fuga
+src/comun/trazabilidad.py,proyecto_fortalecido V4,heredado sin cambios,Mecanismo de evidencia por pregunta
+src/comun/series.py,proyecto_fortalecido V4,heredado sin cambios,Media movil y continuidad
+src/comun/composicion.py,proyecto_fortalecido V4,heredado sin cambios,Participaciones y HHI aplicables a tipo de carga
+src/comun/alertas.py,proyecto_fortalecido V4,heredado sin cambios,Reglas de tres niveles sobre variacion interanual
+src/comun/auditoria.py,proyecto_fortalecido V4,heredado sin cambios,Controles de calidad genericos
+src/comun/disponibilidad.py,proyecto_fortalecido V4,heredado sin cambios,Calendario de publicacion y auditoria de fuga
+src/comun/externas.py,proyecto_fortalecido V4,heredado sin cambios,Correlacion cruzada sobre series estacionarias
+src/comun/dane.py,proyecto_fortalecido V4,heredado sin cambios,Lector de microdatos del DANE
+src/config.py,nuevo,desarrollado nuevo,Rutas y universo de fuentes del proyecto integrado
+src/puertos.py,nuevo,desarrollado nuevo,Dominio portuario de Supertransporte
+src/integracion.py,nuevo,desarrollado nuevo,Union agregada y matriz de relaciones entre dominios
+src/correr_integrado.py,nuevo,desarrollado nuevo,Orquestador de las 52 preguntas V5
+dashboard/app.py,proyecto_fortalecido V4,reescrito,De tres vistas a seis
+docs/preguntas_v5.csv,nuevo,desarrollado nuevo,Catalogo de preguntas de la version 5
+data/raw/aduanas/serie_mensual_aduanera_v4.parquet,proyecto_fortalecido V4,copia de solo consulta,Serie reconciliada 173 meses reutilizada como dominio aduanero

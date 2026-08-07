@@ -1,0 +1,9 @@
+objetivo,modelo,wape_pct,mase_12,ventana,sesgo_rel_pct,error_maximo
+toneladas_totales,naive_1,9.174,0.637,24,,
+toneladas_totales,naive_12,12.838,0.892,24,,
+toneladas_totales,drift,9.231,0.641,24,,
+toneladas_totales,ridge,6.707,0.548,24,2.281,498373.9
+ton_contenerizada,naive_1,8.553,0.5,24,,
+ton_contenerizada,naive_12,17.058,0.997,24,,
+ton_contenerizada,drift,8.535,0.499,24,,
+ton_contenerizada,ridge,8.464,0.58,24,1.573,270328.0

@@ -1,0 +1,105 @@
+{
+  "version_proyecto": "5.0.0",
+  "fecha_congelacion": "2026-08-06T03:26:47",
+  "python": "3.10.12",
+  "codigo": {
+    "modulos_src": 5,
+    "modulos_comun": 15,
+    "pruebas": 80,
+    "suites": 7,
+    "ruff": "sin hallazgos"
+  },
+  "datos": {
+    "aduanero": {
+      "meses": 173,
+      "periodo": "2012-01 a 2026-05",
+      "fuente": "DANE IMPO",
+      "sha256_serie": "4cc1e0784121f0e4"
+    },
+    "portuario": {
+      "meses": 102,
+      "periodo": "2018-01 a 2026-06",
+      "fuente": "Supertransporte 5r3g-zv5z",
+      "licencia": "CC BY-SA 4.0",
+      "sha256_crudo": "ab184edc79ff9fb3"
+    },
+    "integrado": {
+      "meses": 101,
+      "periodo": "2018-01 a 2026-05",
+      "tipo_union": "agregada por mes"
+    },
+    "maritimo": "no viable · sin fuente pública tabular"
+  },
+  "metricas_clave": {
+    "ablacion_cif": {
+      "B · A + calendario": 5.875,
+      "A · historia propia": 6.082,
+      "D · A + contexto (TRM, ONI)": 6.133,
+      "E · integrado completo": 6.167,
+      "C · A + PUERTO": 6.575,
+      "base · drift": 6.905,
+      "base · naive_1": 6.956,
+      "base · naive_12": 16.487
+    },
+    "portuario_v24": {
+      "toneladas_totales·ridge": 6.6126919502298325,
+      "toneladas_totales·hgb": 7.860320848168553,
+      "toneladas_totales·naive_1": 9.174493454118902,
+      "toneladas_totales·drift": 9.239462956161107,
+      "toneladas_totales·naive_12": 12.838231460203913,
+      "ton_contenerizada·naive_1": 8.55267179979776,
+      "ton_contenerizada·drift": 8.559461168170781,
+      "ton_contenerizada·ridge": 9.449742344860638,
+      "ton_contenerizada·hgb": 10.81740424048854,
+      "ton_contenerizada·naive_12": 17.058150472244886
+    },
+    "modelo_predictivo_principal": "aduanero (historia propia + calendario)",
+    "rol_dominio_portuario": "descriptivo y explicativo, no predictivo"
+  },
+  "evidencia": {
+    "figuras_pipeline": 5,
+    "figuras_cuaderno": 42,
+    "archivos_surface": 37,
+    "preguntas": {
+      "ejecutada": "38",
+      "no viable": "10",
+      "parcial": "4"
+    },
+    "sin_evidencia": 0
+  },
+  "fuentes": {
+    "dane_impo": {
+      "entidad": "DANE",
+      "decision": "integrar"
+    },
+    "supertransporte_trafico": {
+      "entidad": "Superintendencia de Transporte",
+      "decision": "integrar"
+    },
+    "banrep_trm": {
+      "entidad": "Banco de la República",
+      "decision": "contexto"
+    },
+    "noaa_oni": {
+      "entidad": "NOAA Climate Prediction Center",
+      "decision": "contexto"
+    },
+    "dimar_trafico": {
+      "entidad": "DIMAR",
+      "decision": "no integrada — solo PDF, sin serie tabular descargable"
+    },
+    "ais_comercial": {
+      "entidad": "proveedores comerciales de AIS",
+      "decision": "descartada — sin acceso ni presupuesto"
+    }
+  },
+  "portada": {
+    "integrantes": [
+      "Juan Manuel Tejada Fajardo",
+      "Jesús Alejandro Guerrero"
+    ],
+    "director": "Ing. Fabián Castillo",
+    "programa": "Ciencia de Datos",
+    "institucion": "Universidad Libre — Seccional Cali"
+  }
+}

@@ -1,0 +1,3 @@
+caso,nivel_nominal,n_evaluados,cobertura_empirica,ancho_promedio,casos_fuera
+toneladas_totales_ridge_v24,0.8,12,0.917,374787.2,1
+ton_contenerizada_ridge_v24,0.8,12,0.917,301782.7,1
