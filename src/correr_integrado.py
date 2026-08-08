@@ -213,8 +213,7 @@ def main() -> None:
                            values="ton", aggfunc="sum", fill_value=0)
     perfil = (piv_t.div(piv_t.sum(axis=1), axis=0) * 100).round(1)
     hhi_v4 = json.loads(
-        (config.RAIZ.parent / "proyecto_fortalecido" / "data" / "surface"
-         / "hhi_global.json").read_text(encoding="utf-8"))
+        (config.SURFACE / "hhi_global.json").read_text(encoding="utf-8"))
     T(pd.DataFrame([
         {"dimension": "Capítulo arancelario", "hhi": round(hhi_v4["hhi_capitulo"], 2),
          "clase": hhi_v4["clase_capitulo"], "dominio": "aduanero",
